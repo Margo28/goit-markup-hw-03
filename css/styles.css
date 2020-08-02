@@ -337,13 +337,14 @@ h1{
     color: var(--footer-contacts-color);
 }
 
-.join-link{
-    display: flex;
+/* .join-link{
+    
     margin-bottom: 0px;
-}
+} */
 
 
 .join{
+
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -352,9 +353,8 @@ h1{
     color: var(--title-text-color)
 }
 
-
-.page-footer{
-
+.page-footer{ 
+   
     background-color: rgba(47, 48, 58, 0.8);;
 }
 
@@ -362,14 +362,14 @@ h1{
 /* Портфолио  */
 
 .list-filter{
-    padding-left: 280px;
-    padding-right: 280px;
     margin-top: 94px;
     margin-bottom: 50px;   
 }
 
 .filter-item{
+    justify-content: center;
     display: flex;
+
    
 }
 
@@ -430,3 +430,5 @@ h1{
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
+
+
