@@ -314,6 +314,12 @@ h1{
     margin-right: 0px;
 }
 
+.footer{
+   
+    margin-bottom: 0px;
+}
+
+
 .padding-logo{
     display: inline-block;
     padding-top: 60px;
@@ -337,10 +343,9 @@ h1{
     color: var(--footer-contacts-color);
 }
 
-/* .join-link{
-    
-    margin-bottom: 0px;
-} */
+.social{
+    display: flex;
+}
 
 
 .join{
