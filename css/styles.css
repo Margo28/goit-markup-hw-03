@@ -362,6 +362,8 @@ h1{
 /* Портфолио  */
 
 .list-filter{
+    padding-left: 280px;
+    padding-right: 280px;
     margin-top: 94px;
     margin-bottom: 50px;   
 }
