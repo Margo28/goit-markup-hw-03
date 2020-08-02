@@ -315,7 +315,8 @@ h1{
 }
 
 .footer{
-   
+    
+    display: flex;
     margin-bottom: 0px;
 }
 
@@ -343,13 +344,15 @@ h1{
     color: var(--footer-contacts-color);
 }
 
-.social{
-    display: flex;
+.social-list{
+    margin-left: 69px;
 }
 
 
 .join{
-
+    margin-left: 69px;
+    margin-bottom: 20px;
+    padding-top: 72px;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
