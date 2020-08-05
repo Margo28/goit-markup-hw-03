@@ -197,6 +197,7 @@ h1{
 
 .features{
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .list-features{
     display: flex;
@@ -236,14 +237,13 @@ h1{
 }
 
 .work-section{
-    padding-top: 94px;
+
     padding-bottom: 94px;
 }
 
 .sectoin-title{
     margin-top: 0px;
     margin-bottom: 50px;
-    padding-top: 94px;
     text-align: center;
     font-weight: bold;
     font-size: 36px;
@@ -264,6 +264,7 @@ h1{
     margin-right: 0px;
 }
 .our-proposals{
+    padding: 27px;
     padding-bottom: 27px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -279,12 +280,13 @@ h1{
 
 .imeges{
     display: block;
-    padding-bottom: 27px;
+    
 }
 
 
 
 .team{
+    padding-top: 94px;
     padding-bottom: 94px;
     background-color: #F5F4FA;
 }
@@ -304,7 +306,7 @@ h1{
 
 .team-photo{
     display: block;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .names-team{
@@ -335,7 +337,7 @@ h1{
 }
 
 .list-social .item{
-    
+    padding-bottom: 24px;
     margin-right: 10px;
 }
 
@@ -343,6 +345,7 @@ h1{
     display: inline-block;
      width: 44px;
     height: 44px; 
+    background-color: var(--accent-color);
 }
 
 
@@ -361,6 +364,7 @@ h1{
 
 .client-list .item{
     width: 170px;
+    height: 90px;
     margin-right: 30px;
     padding: 20px 63px;
     border: 1px solid #AFB1B8;
@@ -392,6 +396,16 @@ h1{
     color: var(--title-text-color);
    
 }
+
+.address .item{
+    margin-bottom: 9px;
+}
+
+
+.address .item:last-child{
+    margin-bottom: 0px;
+}
+
 .contacts{
     font-size: 14px;
     line-height: 24px;
@@ -425,7 +439,7 @@ h1{
 }
 
 .page-footer{ 
-    
+    padding-bottom: 60px;
     background-color: rgba(47, 48, 58, 0.8);;
 }
 
@@ -460,6 +474,7 @@ h1{
  
 
 .filter{
+    padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
     border: transparent;
@@ -480,6 +495,7 @@ h1{
 .prtfl-list{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .prtfl-list .item{
@@ -488,10 +504,12 @@ h1{
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid #EEEEEE; 
+    overflow: hidden; 
 }
 
 .prtfl-photo{
     display: block;
+    margin-bottom: 20px;
 }
 
 
